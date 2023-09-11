@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "dropskipped",
   "displayName": "Client",
   "version": "0.0.1",
   "description": "better prices,skip the droppers",
@@ -10,6 +10,11 @@
     "test": "plasmo test"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.14.8",
     "plasmo": "0.83.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
