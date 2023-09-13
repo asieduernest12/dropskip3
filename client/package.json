@@ -5,8 +5,9 @@
   "description": "better prices,skip the droppers",
   "author": "Ernest Asare-Asiedu",
   "scripts": {
-    "dev": "plasmo dev",
-    "build": "plasmo build",
+    "clear": "rm -rf .plasmo/ ./build/",
+    "dev": "pnpm clear && plasmo dev",
+    "build": "pnpm preplasmo build",
     "test": "plasmo test"
   },
   "dependencies": {
