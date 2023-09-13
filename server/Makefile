@@ -16,10 +16,10 @@ help:
 
 #-- Docker
 up: ## Up the container images
-	docker-compose up -d
+	docker compose up -d
 
 down: ## Down the container images
-	docker-compose down
+	docker compose down
 
 build: ## Build the container image - Production
 	docker build -t ${APP_NAME}\
@@ -43,4 +43,4 @@ remove: ## Remove the volumes
 
 #-- Database
 db: ## Start the local database PostgreSQL
-	docker-compose up -d pg
+	docker compose up -d pg
